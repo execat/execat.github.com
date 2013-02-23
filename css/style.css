@@ -1,5 +1,5 @@
 html {
-    font-size:100%;
+  font-size:100%;
 	overflow-y:scroll;
 	-webkit-text-size-adjust:100%;
 	-ms-text-size-adjust:100%;
@@ -15,12 +15,6 @@ body {
 body, button, input, select, textarea {
 	font-family:'Open Sans',Helvetica,sans-serif;
 	color:#222;
-}
-
-p, ol, ul, td {
-  font-family: verdana, arial, helvetica, sans-serif;
-  font-size: 13px;
-  line-height: 18px;
 }
 
 /*
@@ -108,20 +102,20 @@ header a {
   -moz-animation:fadeIn 1s;
 	background:#000 no-repeat center bottom;
 }
-.blog .hellobox {
-	background-image:url('/img/snake.jpg');
-}
-.projects .hellobox {
-	background:#000 url('/img/tree1.jpg') no-repeat center top;
-}
-.files .hellobox {
-	background:#000 url('/img/tree2.jpg') no-repeat center top;
-}
-.me .hellobox {
+.hellobox {
 	background:#000 url('/img/cloudy.jpg') no-repeat center top;
 }
-.hellobox {
-	background:#000 url('/img/desert.jpg') no-repeat center top;
+.blog .hellobox {
+	background-image:url('/img/desert.jpg');
+}
+.me .hellobox {
+	background:#000 url('/img/snake.jpg') no-repeat center top;
+}
+.notes .hellobox {
+	background:#000 url('/img/tree1.jpg') no-repeat center top;
+}
+.uploads .hellobox {
+	background:#000 url('/img/tree2.jpg') no-repeat center top;
 }
 
 h1 {
@@ -134,11 +128,6 @@ h1 {
 	padding:135px 0 0 0;
 	text-shadow:0 0 30px rgba(58,93,125,0.67);
 	line-height:1em;
-}
-
-h1:hover,h1:focus {
-	-webkit-animation:shakey .25s ease-in-out alternate;
-	-moz-animation:shakey .25s ease-in-out alternate;
 }
 
 h2 {
