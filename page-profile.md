@@ -31,25 +31,25 @@ Hello, I am Anuj More, the creator of this theme. This is my social profile you 
 </div>
 
 <table>
-  <tbody>
-    <tr>
-      <th></th>
-      <th>Network</th>
-      <th>Link</th>
-    </tr>
-  {% for f in page.networks %}
-    <tr>
-      <td><i class="{{ f.icon }}"></i></td>
-      <td>{{ f.site }}</td>
-      <td><a href="{{ f.link }}">{{ f.text }}</a></td>
-    </tr>
-  {% endfor %}
-  </tbody>
+<tbody>
+<tr>
+<th></th>
+<th>Network</th>
+<th>Link</th>
+</tr>
+{% for f in page.networks %}
+<tr>
+<td><i class="{{ f.icon }}"></i></td>
+<td>{{ f.site }}</td>
+<td><a href="{{ f.link }}">{{ f.text }}</a></td>
+</tr>
+{% endfor %}
+</tbody>
 </table>
 
 <h4>Networks:</h4>
 <ul>
-  {% for f in page.networks %}
-    <li>{{ f.site }}: <a href="{{ f.link }}">{{ f.text }}</a></li>
-  {% endfor %}
+{% for f in page.networks %}
+<li>{{ f.site }}: <a href="{{ f.link }}">{{ f.text }}</a></li>
+{% endfor %}
 </ul>
