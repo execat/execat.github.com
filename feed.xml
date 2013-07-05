@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title></title>
-    <description>execat's blog</description>
-    <link>http://execat.github.io</link>
-    <atom:link href="http://execat.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    
-      <item>
-        <title>Domain specific languages</title>
-        <description>&lt;p&gt;A &lt;a href=&quot;https://en.wikipedia.org/wiki/Domain-specific_language&quot;&gt;domain specific language&lt;/a&gt; is a type of programming language or specification language dedicated to a particular problem domain, a particular problem representation technique, and/or a particular solution technique.&lt;/p&gt;
+<channel>
+<title></title>
+<description>execat's blog</description>
+<link>http://execat.github.io</link>
+<atom:link href="http://execat.github.io/feed.xml" rel="self" type="application/rss+xml" />
+
+<item>
+<title>Domain specific languages</title>
+<description>&lt;p&gt;A &lt;a href=&quot;https://en.wikipedia.org/wiki/Domain-specific_language&quot;&gt;domain specific language&lt;/a&gt; is a type of programming language or specification language dedicated to a particular problem domain, a particular problem representation technique, and/or a particular solution technique.&lt;/p&gt;
 
 &lt;p&gt;During my visit to &lt;a href=&quot;http://rubyconfindia.org/2013/&quot;&gt;RubyConf&lt;/a&gt;, I was introduced to two Ruby DSLs:&lt;/p&gt;
 
@@ -34,14 +34,14 @@
 
 &lt;p&gt;More on that later (because I am undecided about the language to use :-P)&lt;/p&gt;
 </description>
-        <pubDate>Fri, 05 Jul 2013 22:35:00 +0000</pubDate>
-        <link>http://execat.github.io/2013/domain-specific-languages-1</link>
-        <guid isPermaLink="true">http://execat.github.io/2013/domain-specific-languages-1</guid>
-      </item>
-    
-      <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code&gt;-w&lt;/code&gt; switch) to see your changes!
+<pubDate>Fri, 05 Jul 2013 22:35:00 +0000</pubDate>
+<link>http://execat.github.io/2013/domain-specific-languages-1</link>
+<guid isPermaLink="true">http://execat.github.io/2013/domain-specific-languages-1</guid>
+</item>
+
+<item>
+<title>Welcome to Jekyll!</title>
+<description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code&gt;-w&lt;/code&gt; switch) to see your changes!
 To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
 
 &lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
@@ -56,10 +56,10 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 &lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/mojombo/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;.&lt;/p&gt;
 
 </description>
-        <pubDate>Mon, 01 Jul 2013 20:50:00 +0000</pubDate>
-        <link>http://execat.github.io/2013/welcome-to-jekyll</link>
-        <guid isPermaLink="true">http://execat.github.io/2013/welcome-to-jekyll</guid>
-      </item>
-    
-  </channel>
+<pubDate>Mon, 01 Jul 2013 20:50:00 +0000</pubDate>
+<link>http://execat.github.io/2013/welcome-to-jekyll</link>
+<guid isPermaLink="true">http://execat.github.io/2013/welcome-to-jekyll</guid>
+</item>
+
+</channel>
 </rss>
