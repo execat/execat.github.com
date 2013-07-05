@@ -7,6 +7,29 @@
 <atom:link href="http://execat.github.io/feed.xml" rel="self" type="application/rss+xml" />
 
 <item>
+<title>LISP: Slashdot wisdom</title>
+<description>&lt;p&gt;Discussion on &lt;a href=&quot;http://developers.slashdot.org/comments.pl?sid=3938715&amp;amp;cid=44193175&quot;&gt;/.&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+
+  &lt;p&gt;AC: “I find it hard to believe ANYTHING derived from LISP could simplify anything.”&lt;/p&gt;
+
+  &lt;p&gt;marcello_dl: “Because lisp-style languages are already simplified to the extreme, you mean? Phew, for a moment I thought I spotted a troll.”&lt;/p&gt;
+
+  &lt;p&gt;smitty_one_each: “The question is whether simplifying the syntax down to a nubbin really flattens the learning curve or not.”&lt;/p&gt;
+
+  &lt;p&gt;AC: “That’s &lt;em&gt;a&lt;/em&gt; question. &lt;em&gt;The&lt;/em&gt; question is why does LISP persist with that syntax. There is a very very deep reason for this which you should discover for yourself. Once you’ve discovered that, the learning curve will be irrelevant for two reasons. The less important reason being you’ll already be over it “&lt;/p&gt;
+
+&lt;/blockquote&gt;
+
+&lt;p&gt;That being said, LISP is not even a contender to my &lt;a href=&quot;/2013/domain-specific-languages-1&quot;&gt;DSL project&lt;/a&gt;. Interesting language though.&lt;/p&gt;
+</description>
+<pubDate>Sat, 06 Jul 2013 00:15:00 +0000</pubDate>
+<link>http://execat.github.io/2013/lisp-slashdot-wisdom</link>
+<guid isPermaLink="true">http://execat.github.io/2013/lisp-slashdot-wisdom</guid>
+</item>
+
+<item>
 <title>Domain specific languages</title>
 <description>&lt;p&gt;A &lt;a href=&quot;https://en.wikipedia.org/wiki/Domain-specific_language&quot;&gt;domain specific language&lt;/a&gt; is a type of programming language or specification language dedicated to a particular problem domain, a particular problem representation technique, and/or a particular solution technique.&lt;/p&gt;
 
