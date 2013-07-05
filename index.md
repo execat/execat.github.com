@@ -1,6 +1,5 @@
 ---
 layout: index
-title: wlrs -- a Jekyll theme
 description: "A responsive Jekyll theme."
 tags: [Jekyll, theme, responsive, blog, template]
 ---
