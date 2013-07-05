@@ -2,7 +2,7 @@
 layout: post
 title:  "Domain specific languages"
 date:   2013-07-05 22:35
-categories: dsl programming metaprogramming
+categories: dsl programming metaprogramming languages
 ---
 
 A [domain specific language](https://en.wikipedia.org/wiki/Domain-specific_language) is a type of programming language or specification language dedicated to a particular problem domain, a particular problem representation technique, and/or a particular solution technique.
