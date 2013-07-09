@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>execat</title>
+<title>Class scopes in Python &#8211; execat</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta charset="UTF-8" />
-<meta name="description" content="Blog listing for execat's blog">
-<meta name="keywords" content="execat, blog, github">
+<meta name="description" content="">
+<meta name="keywords" content="">
 
 <link type="text/plain" rel="author" href="http://http://execat.github.io/humans.txt" />
 <link rel="stylesheet" type="text/css" href="/assets/css/style.css" media="screen" />
@@ -65,26 +65,21 @@
 <!-- <section>..</section> goes here -->
 <section id="river" role="main">
 <header id="postedbar">
+<time style="color:#613854">Posted on</time>
+<br />
+<time id="top_time" datetime="09/07/2013">07/09/2013</time>
 <div id="backhome">
-<ul>
-<li><a href="/">Homepage</a></li>
-</ul>
+<a href="/">Homepage</a>
 </div>
 </header>
-<article id="sample_post" class="post">
-<div id="datebar"></div>
+<article id="/2013/python-init" class="post">
+<div id="datebar">2013-07-09 11:10:00 +0000</div>
 <h2>
-<a href="/index.html" style="border: none; !important;">
-
-execat -- (Co)ding!
-
-</a>
+<a href="/2013/python-init" style="border: none; !important;">Class scopes in Python</a>
 </h2>
-<!--
 <div id="postSpecs" style="letter-spacing: 0.1em;">
-26 words &#8226; reading time ??? minutes
+158 words &#8226; reading time ??? minutes
 </div>
--->
 <div id="likes" class="click_like">
 <!--
 <a href="#"><i class="icon-thumbs-up" onClick="make_count(jQuery(this)); return false;" style="margin-left: 0px;" data-id="sample_post">0</i>
@@ -92,20 +87,34 @@ execat -- (Co)ding!
 -->
 </div>
 <p>
-<p>
-<ul class="posts">
+<p>Consider a class like this:</p>
 
-<li><span>09 Jul 2013</span> &raquo; <a href="/2013/python-init">Class scopes in Python</a></li>
+<div class="highlight"><pre><code class="python"><span class="k">class</span> <span class="nc">MyClass</span><span class="p">:</span>
+  <span class="n">x</span> <span class="o">=</span> <span class="mi">0</span>
 
-<li><span>06 Jul 2013</span> &raquo; <a href="/2013/lisp-slashdot-wisdom">LISP: Slashdot wisdom</a></li>
+<span class="n">a</span> <span class="o">=</span> <span class="n">MyClass</span><span class="p">()</span>   <span class="c">#=&gt; Creates one MyClass object</span>
+<span class="n">b</span> <span class="o">=</span> <span class="n">MyClass</span><span class="p">()</span>   <span class="c">#=&gt; Creates another MyClass object</span>
 
-<li><span>05 Jul 2013</span> &raquo; <a href="/2013/domain-specific-languages-1">Domain specific languages</a></li>
+<span class="n">a</span><span class="o">.</span><span class="n">x</span> <span class="o">=</span> <span class="mi">123</span>       <span class="c">#=&gt; a.x = 123 and b.x = 0</span>
+<span class="n">b</span><span class="o">.</span><span class="n">x</span> <span class="o">=</span> <span class="mi">42</span>        <span class="c">#=&gt; a.x = 123 and b.x = 42</span>
+</code></pre></div>
 
-<li><span>01 Jul 2013</span> &raquo; <a href="/2013/welcome-to-jekyll">Welcome to Jekyll!</a></li>
+<p>Not that bad. Nothing weird.</p>
 
-</ul>
-</p>
+<p>Well, that’s just because it doesn’t matter much for immutable objects like ints, but if x was a mutable type, like a list, it could have unexpected consequences.</p>
 
+<div class="highlight"><pre><code class="python"><span class="k">class</span> <span class="nc">MyClass</span><span class="p">:</span>
+  <span class="n">x</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">]</span>
+
+<span class="n">a</span> <span class="o">=</span> <span class="n">MyClass</span><span class="p">()</span>   <span class="c">#=&gt; Creates one MyClass object</span>
+<span class="n">b</span> <span class="o">=</span> <span class="n">MyClass</span><span class="p">()</span>   <span class="c">#=&gt; Creates another MyClass object</span>
+                <span class="c">#=&gt; a.x = [1,2,3] and b.x = [1,2,3]</span>
+
+<span class="n">a</span><span class="o">.</span><span class="n">x</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="mi">4</span><span class="p">)</span>   <span class="c">#=&gt; a.x = [1,2,3,4] and b.x = [1,2,3,4]</span>
+<span class="n">b</span><span class="o">.</span><span class="n">x</span><span class="o">.</span><span class="n">reverse</span><span class="p">()</span>   <span class="c">#=&gt; a.x = [4,3,2,1] and b.x = [4,3,2,1]</span>
+</code></pre></div>
+
+<p>Solution: MyClass should bind instance variables in <code>__init__</code>, rather than doing it in the class scope.</p>
 
 </p>
 </article>
