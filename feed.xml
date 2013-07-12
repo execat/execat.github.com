@@ -7,6 +7,51 @@
 <atom:link href="http://execat.github.io/feed.xml" rel="self" type="application/rss+xml" />
 
 <item>
+<title>A Redmond distribution: review</title>
+<description>&lt;p&gt;1.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“I’m running a Redmond distribution, Windows 7 I think it’s called. It’s not bad, reasonably stable, the installer works just fine, has a nice polished look to it, and seems to have built-in Wine support because Office runs fine on it. I’ve heard it’s been forked into something called Metro/Win8 which is pretty unpleasant, so I’ll be sticking with the current distro for awhile.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;2.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“I tried that same distribution, I tried really hard to like it, I really did, but it just didn’t work out. After a couple of weeks of constant irritations like being nagged about viruses and rebooting in the middle of important work I just gave up. That Windows distribution is trying hard to imitate Linux but just can’t seem to get the details right.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;3.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“I tried that one as well. The package management seems totally broken and there’s no SSH. WTF?”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;4.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“I take it you have never tried to use the Windows 7 installer on a system with more then one SATA drive, then. Let’s just say that between bizarre, undocumented requirements (the installer expects to be installed on the first SATA drive; you can select another drive but you’ll get an error message after configuring the partitions) and the cryptic error messages given if you don’t meet them (something about not finding a system partition) it’s clearly not ready for prime time but was shipped regardless. I haven’t looked at the Metro one yet but I hope they switched to something more reasonable like Ubiquity. Home-grown installers clearly aren’t Redmond’s forte.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;5.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Once you’ve got it running it’s a mixed bag. The built-in Wine is flat-out awesome (it even has near-perfect compatibility with DirectX) but the preinstalled software is extremely sparse for such a big distro (you don’t even get GCC!), for some reason the login screen doesn’t allow you to select the window manager, leaving you stuck with the default one… Oh yeah, and you can’t even get out of X11 while the system is running. No shell, no nothing. Who does that?”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;6.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“I’d recommend it for compatibility purposes only. If you need Wine for something this is the distro to use. For everything else just use another distro.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://linux.slashdot.org/comments.pl?sid=3403937&amp;amp;cid=42676945&quot;&gt;Got to love /.&lt;/a&gt;&lt;/p&gt;
+</description>
+<pubDate>Fri, 12 Jul 2013 09:30:00 +0000</pubDate>
+<link>http://execat.github.io/2013/a-redmond-distribution</link>
+<guid isPermaLink="true">http://execat.github.io/2013/a-redmond-distribution</guid>
+</item>
+
+<item>
 <title>Class scopes in Python</title>
 <description>&lt;p&gt;Consider a class like this:&lt;/p&gt;
 
