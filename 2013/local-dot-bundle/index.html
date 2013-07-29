@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>execat</title>
+<title>Local .bundle directory &#8211; execat</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta charset="UTF-8" />
-<meta name="description" content="Blog listing for execat's blog">
-<meta name="keywords" content="execat, blog, github">
+<meta name="description" content="">
+<meta name="keywords" content="">
 
 <link type="text/plain" rel="author" href="http://http://execat.github.io/humans.txt" />
 <link rel="stylesheet" type="text/css" href="/assets/css/style.css" media="screen" />
@@ -65,26 +65,21 @@ anuj | more
 <!-- <section>..</section> goes here -->
 <section id="river" role="main">
 <header id="postedbar">
+<time style="color:#613854">Posted on</time>
+<br />
+<time id="top_time" datetime="12/07/2013">07/12/2013</time>
 <div id="backhome">
-<ul>
-<li><a href="/">Homepage</a></li>
-</ul>
+<a href="/">Homepage</a>
 </div>
 </header>
-<article id="sample_post" class="post">
-<div id="datebar"></div>
+<article id="/2013/local-dot-bundle" class="post">
+<div id="datebar">2013-07-12 09:30:00 +0000</div>
 <h2>
-<a href="/index.html" style="border: none; !important;">
-
-execat -- anuj | more
-
-</a>
+<a href="/2013/local-dot-bundle" style="border: none; !important;">Local .bundle directory</a>
 </h2>
-<!--
 <div id="postSpecs" style="letter-spacing: 0.1em;">
-26 words &#8226; reading time ??? minutes
+95 words &#8226; reading time ??? minutes
 </div>
--->
 <div id="likes" class="click_like">
 <!--
 <a href="#"><i class="icon-thumbs-up" onClick="make_count(jQuery(this)); return false;" style="margin-left: 0px;" data-id="sample_post">0</i>
@@ -92,24 +87,13 @@ execat -- anuj | more
 -->
 </div>
 <p>
-<p>
-<ul class="posts">
+<p>So, turns out having a separate <code>.bundle</code> directory for each project resoloved loads of my issues straight-away.</p>
 
-<li><span>12 Jul 2013</span> &raquo; <a href="/2013/local-dot-bundle">Local .bundle directory</a></li>
+<p>For a Ruby app with a Gemfile, execute <code>bundle install --path .bundle</code> (or whatever you prefer instead of <code>.bundle</code> directory) to install the Gems locally. Subsequent <code>bundle</code> commands do not need <code>--path</code> parameter to be specified. </p>
 
-<li><span>12 Jul 2013</span> &raquo; <a href="/2013/a-redmond-distribution">A Redmond distribution: review</a></li>
+<p>One can then execute the locally installed Gems through <code>bundle exec &lt;command&gt;</code>.</p>
 
-<li><span>09 Jul 2013</span> &raquo; <a href="/2013/python-init">Class scopes in Python</a></li>
-
-<li><span>06 Jul 2013</span> &raquo; <a href="/2013/lisp-slashdot-wisdom">LISP: Slashdot wisdom</a></li>
-
-<li><span>05 Jul 2013</span> &raquo; <a href="/2013/domain-specific-languages-1">Domain specific languages</a></li>
-
-<li><span>01 Jul 2013</span> &raquo; <a href="/2013/welcome-to-jekyll">Welcome to Jekyll!</a></li>
-
-</ul>
-</p>
-
+<p>That, with <code>rvm</code> for managing the same Ruby versions. Nice way to keep the entire project base on the same version of the software irrespective of the OSes/distros being used.</p>
 
 </p>
 </article>

@@ -7,6 +7,21 @@
 <atom:link href="http://execat.github.io/feed.xml" rel="self" type="application/rss+xml" />
 
 <item>
+<title>Local .bundle directory</title>
+<description>&lt;p&gt;So, turns out having a separate &lt;code&gt;.bundle&lt;/code&gt; directory for each project resoloved loads of my issues straight-away.&lt;/p&gt;
+
+&lt;p&gt;For a Ruby app with a Gemfile, execute &lt;code&gt;bundle install --path .bundle&lt;/code&gt; (or whatever you prefer instead of &lt;code&gt;.bundle&lt;/code&gt; directory) to install the Gems locally. Subsequent &lt;code&gt;bundle&lt;/code&gt; commands do not need &lt;code&gt;--path&lt;/code&gt; parameter to be specified. &lt;/p&gt;
+
+&lt;p&gt;One can then execute the locally installed Gems through &lt;code&gt;bundle exec &amp;lt;command&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;That, with &lt;code&gt;rvm&lt;/code&gt; for managing the same Ruby versions. Nice way to keep the entire project base on the same version of the software irrespective of the OSes/distros being used.&lt;/p&gt;
+</description>
+<pubDate>Fri, 12 Jul 2013 09:30:00 +0000</pubDate>
+<link>http://execat.github.io/2013/local-dot-bundle</link>
+<guid isPermaLink="true">http://execat.github.io/2013/local-dot-bundle</guid>
+</item>
+
+<item>
 <title>A Redmond distribution: review</title>
 <description>&lt;p&gt;1.&lt;/p&gt;
 
