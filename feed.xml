@@ -7,6 +7,49 @@
 <atom:link href="http://execat.github.io/feed.xml" rel="self" type="application/rss+xml" />
 
 <item>
+<title>Packages in Fedora!</title>
+<description>&lt;p&gt;Pushed a few RubyGem packages to the Fedora 19/rawhide repos.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;rubygem-connection_pool&lt;/li&gt;
+  &lt;li&gt;rubygem-dotenv&lt;/li&gt;
+  &lt;li&gt;rubygem-faker&lt;/li&gt;
+  &lt;li&gt;rubygem-lumberjack&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The progress with other packages can be viewed &lt;a href=&quot;https://github.com/execat/Packages/tree/master/rpmspecs&quot;&gt;here&lt;/a&gt;. Check &lt;a href=&quot;https://github.com/execat/Packages/blob/master/rpmspecs/readme-generate.sh&quot;&gt;this&lt;/a&gt; cool script that auto-updates the script for me while you are at it.&lt;/p&gt;
+
+&lt;p&gt;All my packages in the Fedora repos can be found &lt;a href=&quot;https://admin.fedoraproject.org/pkgdb/users/packages/anujmore&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+<pubDate>Tue, 06 Aug 2013 20:20:00 +0000</pubDate>
+<link>http://execat.github.io/2013/packages-fedora</link>
+<guid isPermaLink="true">http://execat.github.io/2013/packages-fedora</guid>
+</item>
+
+<item>
+<title>One book per month</title>
+<description>&lt;p&gt;So I finally figured how I have been a book-avese person, and it would really do me good if I read a classic book or two.&lt;/p&gt;
+
+&lt;p&gt;And when I say that, the few books/texts in my head are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;SICP&lt;/li&gt;
+  &lt;li&gt;Learn you a Haskell (Though it is not all &lt;em&gt;that&lt;/em&gt; classic, the language is ;-))&lt;/li&gt;
+  &lt;li&gt;A collection of papers on functional programming lying in a corner of my hard-disk&lt;/li&gt;
+  &lt;li&gt;Mahabharata, unabridged&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Planning to write a separate page listing out all the books, and hopefully cancelling one book per month.&lt;/p&gt;
+
+&lt;p&gt;EDIT: One book per month looks a bit far-fetched. Make it one book per two months.&lt;/p&gt;
+</description>
+<pubDate>Tue, 06 Aug 2013 20:14:00 +0000</pubDate>
+<link>http://execat.github.io/2013/one-book-per-month</link>
+<guid isPermaLink="true">http://execat.github.io/2013/one-book-per-month</guid>
+</item>
+
+<item>
 <title>Local .bundle directory</title>
 <description>&lt;p&gt;So, turns out having a separate &lt;code&gt;.bundle&lt;/code&gt; directory for each project resoloved loads of my issues straight-away.&lt;/p&gt;
 
