@@ -11,10 +11,10 @@
 <description>&lt;p&gt;Pushed a few RubyGem packages to the Fedora 19/rawhide repos.&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;rubygem-connection_pool&lt;/li&gt;
-  &lt;li&gt;rubygem-dotenv&lt;/li&gt;
-  &lt;li&gt;rubygem-faker&lt;/li&gt;
-  &lt;li&gt;rubygem-lumberjack&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://admin.fedoraproject.org/pkgdb/acls/name/rubygem-connection_pool&quot;&gt;rubygem-connection_pool&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://admin.fedoraproject.org/pkgdb/acls/name/rubygem-dotenv&quot;&gt;rubygem-dotenv&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://admin.fedoraproject.org/pkgdb/acls/name/rubygem-faker&quot;&gt;rubygem-faker&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://admin.fedoraproject.org/pkgdb/acls/name/rubygem-lumberjack&quot;&gt;rubygem-lumberjack&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;The progress with other packages can be viewed &lt;a href=&quot;https://github.com/execat/Packages/tree/master/rpmspecs&quot;&gt;here&lt;/a&gt;. Check &lt;a href=&quot;https://github.com/execat/Packages/blob/master/rpmspecs/readme-generate.sh&quot;&gt;this&lt;/a&gt; cool script that auto-updates the script for me while you are at it.&lt;/p&gt;
