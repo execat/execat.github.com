@@ -7,6 +7,18 @@
 <atom:link href="http://execat.github.io/feed.xml" rel="self" type="application/rss+xml" />
 
 <item>
+<title>GRE scores out</title>
+<description>&lt;p&gt;Big day was done with yesterday. My scores read 165Q 155V = 320 overall (out of 340). Too bad I missed out on my 325 goal.&lt;/p&gt;
+
+&lt;p&gt;Tempted to take the GRE again. I have a completely valid excuse of being sick on the week of exam ;-)&lt;/p&gt;
+
+</description>
+<pubDate>Fri, 23 Aug 2013 17:20:00 +0000</pubDate>
+<link>http://execat.github.io/2013/gre</link>
+<guid isPermaLink="true">http://execat.github.io/2013/gre</guid>
+</item>
+
+<item>
 <title>Packages in Fedora!</title>
 <description>&lt;p&gt;Pushed a few RubyGem packages to the Fedora 19/rawhide repos.&lt;/p&gt;
 
