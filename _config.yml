@@ -1,0 +1,46 @@
+name:             Hello, world!
+description:      New blog
+meta_description: "Just another blog"
+
+about_page:       true
+
+markdown:         kramdown
+highlighter:      rouge
+
+paginate:         20
+# Set to '/<project_name>/' (with quotes) for GitHub projects or '/'
+baseurl:          '/'
+domain_name:      'http://execat.github.io/'
+google_analytics: 'UA-XXXXXXXX-X'
+disqus:           false
+disqus_shortname: 'your-disqus-shortname'
+
+# Details for the RSS feed generator
+url:            'http://execat.github.io/'
+author:         'Anuj More'
+author_twitter: 'execat'
+
+permalink:       /:year/:title/
+
+defaults:
+    -
+        scope:
+            path: "" # empty string for all files
+            type: pages
+        values:
+            layout: default
+    -
+        scope:
+            path: "" # empty string for all files
+            type: posts
+        values:
+            layout: post
+    -
+        scope:
+            path: ""
+            type: drafts
+        values:
+            layout: post
+
+gems:
+    - jekyll-paginate
