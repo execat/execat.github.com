@@ -21,6 +21,7 @@ author:         'Anuj More'
 author_twitter: 'execat'
 
 permalink:       /:year/:title/
+include:         ['.well-known']
 
 defaults:
     -
